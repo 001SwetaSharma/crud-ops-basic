@@ -1,0 +1,20 @@
+{
+  "name": "crud-ops-basic",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Basic crud operation service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Sweta Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
